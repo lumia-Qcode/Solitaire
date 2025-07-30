@@ -4,7 +4,7 @@ This is a command-line implementation of the classic **Solitaire** (Klondike) ca
 
 ---
 
-## 📦 Features
+##  Features
 
 - Complete deck creation and shuffling
 - Tableau (7 columns), Foundation (4 stacks), Stock, and Waste piles
@@ -19,7 +19,7 @@ This is a command-line implementation of the classic **Solitaire** (Klondike) ca
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - **Language:** C++
 - **Headers:** `<iostream>`, `<string>`, `<windows.h>`, `<stdexcept>`, `<ctime>`, `<cctype>`
@@ -30,23 +30,23 @@ This is a command-line implementation of the classic **Solitaire** (Klondike) ca
 
 ---
 
-## 🎮 How to Play
+##  How to Play
 
-### 📌 Controls
+###  Controls
 
 - **`s`**: Draw a card from the stockpile
 - **`m,src,dest,num`**: Move cards (e.g. `m,c1,f2,1` moves 1 card from column 1 to foundation 2)
 - **`z`**: Undo last move
 - **`e`**: End game
 
-### 🗂️ Column/Stack Codes
+### Column/Stack Codes
 
 - `c1`, `c2`, ..., `c7`: Columns (tableau)
 - `f1`, `f2`, ..., `f4`: Foundations
 - `w`: Wastepile
 - `s`: Stock (draw pile)
 
-### ✅ Example Commands
+### Example Commands
 
 - `m,c1,c3,2` → Move 2 cards from column 1 to column 3  
 - `m,w,f1,1` → Move 1 card from wastepile to foundation 1  
@@ -54,11 +54,7 @@ This is a command-line implementation of the classic **Solitaire** (Klondike) ca
 - `e` → End the game
 
 ---
-
-## 🧩 How to Compile & Run
-
-### ▶️ Windows (Using g++)
-
-```bash
-g++ Solitaire.cpp -o Solitaire.exe
-./Solitaire.exe
+## Author
+Lumia Noman Qureshi<br>
+BSCS – Computer Science Student<br>
+FAST NUCES LHR
